@@ -2,6 +2,8 @@
 
 An interactive Python robotics portfolio project: navigate a grid with **A\*** and **Dijkstra**, visualize explored cells and the optimal path, compare the algorithms, and export route coordinates.
 
+**🚀 [Launch the live Robot Route Lab simulator](https://robot-path-planning-simulator-l3b26kllrcac7kk3jskbal.streamlit.app/)** — no installation required.
+
 ![Robot A* shortest-path preview](assets/demo.svg)
 
 ## Features
@@ -39,7 +41,7 @@ CLI legend: S = start, G = goal, # = obstacle, * = final route.
 Read the [algorithm walkthrough](docs/ALGORITHM.md) and the [unit tests](tests/test_planner.py).
 
 ## Deploy
-Use [Streamlit Community Cloud](https://share.streamlit.io/) with this GitHub repository, branch `main`, entrypoint `app.py`. A live URL will be added only after a verified deployment.
+**Live deployment:** [Open Robot Route Lab](https://robot-path-planning-simulator-l3b26kllrcac7kk3jskbal.streamlit.app/). Hosted publicly on Streamlit Community Cloud from this GitHub repository, branch `main`, entrypoint `app.py`.
 
 ## Inspiration and attribution
 Learned path-planning concepts and visualization ideas from [PythonRobotics](https://atsushisakai.github.io/PythonRobotics/) by Atsushi Sakai and contributors. This is a separately written educational implementation, not copied PythonRobotics source.
